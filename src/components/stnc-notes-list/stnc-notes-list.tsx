@@ -1,4 +1,4 @@
-import { Component, Host, h } from '@stencil/core';
+import { Component, h } from '@stencil/core';
 
 @Component({
   tag: 'stnc-notes-list',
@@ -6,13 +6,7 @@ import { Component, Host, h } from '@stencil/core';
   shadow: true,
 })
 export class StncNotesList {
-
   render() {
-    return (
-      <Host>
-        <slot></slot>
-      </Host>
-    );
+    return <div>TODO: create notes-list rendernpm install</div>;
   }
-
 }
