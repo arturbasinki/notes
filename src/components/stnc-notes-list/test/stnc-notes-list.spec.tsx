@@ -10,7 +10,7 @@ describe('stnc-notes-list', () => {
     expect(page.root).toEqualHtml(`
       <stnc-notes-list>
         <mock:shadow-root>
-          <slot></slot>
+          <div>TODO: create notes-list render</div>
         </mock:shadow-root>
       </stnc-notes-list>
     `);

@@ -14,7 +14,7 @@
     "jsxFactory": "h"
   },
   "typedocOptions": {
-    "entryPoints": ["./src"],
+    "entryPoints": ["src"],
     "out": "docs"
   },
   "include": ["src"],

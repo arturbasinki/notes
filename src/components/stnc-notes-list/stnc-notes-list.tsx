@@ -7,6 +7,6 @@ import { Component, h } from '@stencil/core';
 })
 export class StncNotesList {
   render() {
-    return <div>TODO: create notes-list rendernpm install</div>;
+    return <div>TODO: create notes-list render</div>;
   }
 }

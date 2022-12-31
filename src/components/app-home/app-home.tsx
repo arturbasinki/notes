@@ -7,6 +7,10 @@ import { Component, h } from '@stencil/core';
 })
 export class AppHome {
   render() {
-    return <div class="app-home">TODO: call notes-list component</div>;
+    return (
+      <div class="app-home">
+        <stnc-notes-list></stnc-notes-list>
+      </div>
+    );
   }
 }
