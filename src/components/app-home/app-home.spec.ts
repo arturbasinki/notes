@@ -1,7 +1,7 @@
 import { newSpecPage } from '@stencil/core/testing';
 import { AppHome } from './app-home';
 
-describe('app-home', () => {
+describe('app-home tests', () => {
   it('renders', async () => {
     const page = await newSpecPage({
       components: [AppHome],
