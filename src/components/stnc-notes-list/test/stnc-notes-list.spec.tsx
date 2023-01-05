@@ -1,4 +1,9 @@
 import { newSpecPage } from '@stencil/core/testing';
+
+jest.mock('../../../library/NotesData', () => ({
+  getList: () => 'test hello list',
+}));
+
 import { StncNotesList } from '../stnc-notes-list';
 
 describe('stnc-notes-list', () => {
@@ -10,7 +15,16 @@ describe('stnc-notes-list', () => {
     expect(page.root).toEqualHtml(`
       <stnc-notes-list>
         <mock:shadow-root>
-          <div>TODO: create notes-list render</div>
+          <div>
+            <div>Notes List</div>
+            <table>
+              <thead>
+                <tr>
+                  <th>test hello list</th>
+                </tr>
+              </thead>
+            </table>
+          </div>
         </mock:shadow-root>
       </stnc-notes-list>
     `);
